@@ -1,0 +1,21 @@
+{
+  "name": "cdn.blueat.net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "publish": "wrangler publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@tangled.org:danielmorrisey.com/cdn.blueat.net"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.76.0"
+  }
+}
