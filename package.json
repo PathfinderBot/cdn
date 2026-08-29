@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "publish": "wrangler publish"
+    "publish": "wrangler publish",
+    "start": "wrangler dev --port 3002 --ip 0.0.0.0"
   },
   "repository": {
     "type": "git",
